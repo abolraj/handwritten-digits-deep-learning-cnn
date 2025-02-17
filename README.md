@@ -5,6 +5,8 @@
   Your browser does not support the video tag.
 </video>
 
+![Photo 1](./shots/photo1.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to the Handwritten Digit Recognition project! This repository contains code and resources for building and deploying a convolutional neural network (CNN) that can recognize handwritten digits, both from the standard MNIST dataset and real-time camera inputs.
