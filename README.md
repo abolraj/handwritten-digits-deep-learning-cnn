@@ -7,7 +7,6 @@
 
 ![Photo 1](./shots/photo1.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to the Handwritten Digit Recognition project! This repository contains code and resources for building and deploying a convolutional neural network (CNN) that can recognize handwritten digits, both from the standard MNIST dataset and real-time camera inputs.
 
@@ -28,16 +27,13 @@ The goal of this project is to explore the fascinating field of computer vision 
 
 ## 🖥️ Demo
 
-![Demo GIF](demo.gif)
-
 *Showing the model predicting digits drawn on a canvas and recognizing digits from a camera feed.*
 
 ## 📂 Repository Structure
 
-- `model_training/`: Scripts and notebooks for training the CNN model.
-- `digit_recognition_draw.py`: Application to draw digits and get predictions.
-- `digit_recognition_camera.py`: Application to recognize digits from webcam input.
-- `requirements.txt`: Python dependencies.
+- `main.py`: Script training the CNN model.
+- `test_paint.py`: Application to draw digits and get predictions.
+- `test_camera.py`: Application to recognize digits from webcam input.
 - `README.md`: Project documentation.
 
 ## 🛠️ Installation
@@ -54,20 +50,6 @@ git clone https://github.com/abolraj/handwritten-digits-deep-learning-cnn.git
 cd handwritten-digits-deep-learning-cnn
 ```
 
-### Create a Virtual Environment (Optional but Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-*The `requirements.txt` file includes packages like TensorFlow, OpenCV, NumPy, etc.*
 
 ## 📚 Usage
 
@@ -76,8 +58,7 @@ pip install -r requirements.txt
 If you wish to train the model yourself:
 
 ```bash
-cd model_training
-python train_model.py
+python main.py
 ```
 
 *This script will train the CNN model on the MNIST dataset and save the trained model as `improved_trained_model.h5`.*
@@ -132,13 +113,9 @@ python digit_recognition_camera.py
 
 ### Drawing Recognition
 
-![Drawing Recognition](drawing_recognition.png)
-
 *Drawing the digit '5' on the canvas and the model predicts it correctly.*
 
 ### Camera Recognition
-
-![Camera Recognition](camera_recognition.png)
 
 *Showing the digit '7' to the webcam and the model identifies it with high confidence.*
 
@@ -154,10 +131,6 @@ Contributions are welcome! If you have ideas for improvements or find bugs, feel
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Open a pull request.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgements
 
 - **MNIST Dataset:** [Yann LeCun's MNIST Database](http://yann.lecun.com/exdb/mnist/)
@@ -169,8 +142,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Feel free to reach out if you have questions or suggestions:
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Email:** [fazlabol18@gmail.com](mailto: fazlabol18@gmail.com)
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/abolfazl-rajaee-nasab-195aa3225)
 
 ## 🌐 Connect and Share
 
